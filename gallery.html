@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoryFrame - Photo Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <!-- Audio Elements like home -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="audio/whitepetals.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</head>
+<body>
+
+    <!-- Floating Background -->
+    <div class="bg-decoration">
+        <div class="floating-element heart">❤</div>
+        <div class="floating-element star">★</div>
+        <div class="floating-element heart">💖</div>
+        <div class="floating-element star">✨</div>
+        <div class="floating-element heart">💕</div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">📸</span>
+                <h1 class="logo-text">MemoryFrame</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="main.html" class="nav-link">🏠 Home</a>
+                <a href="gallery.html" class="nav-link nav-btn">Gallery</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="gallery-header-content">
+            <h1>Photo Gallery</h1>
+            <p>Koleksi foto-foto Haura</p>
+            <div class="gallery-stats">
+                <span id="totalPhotos">0</span> Photos
+            </div>
+            <button id="refreshBtn" class="refresh-btn" onclick="refreshGallery()">🔄 Refresh</button>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="filter-section">
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="roblox">Roblox</button>
+            <button class="filter-btn" data-filter="mount">Mount</button>
+            <button class="filter-btn" data-filter="expedition">Expedition</button>
+            <button class="filter-btn" data-filter="fishit">Fish It</button>
+            <button class="filter-btn" data-filter="cute">Cute</button>
+            <button class="filter-btn" data-filter="horror">Horror</button>
+            <button class="filter-btn" data-filter="heartopia">Heartopia</button>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Cari foto...">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pinterest-style Gallery -->
+    <section class="pinterest-gallery">
+        <div class="masonry-grid" id="masonryGrid">
+        </div>
+        
+        <div class="load-more-container">
+            <button id="loadMoreBtn" class="load-more-btn">
+                📥 Load More Photos
+            </button>
+        </div>
+        
+        <div id="loadingIndicator" class="loading-indicator">
+            <div class="loader"></div>
+            <p>Memuat foto...</p>
+        </div>
+    </section>
+
+    <!-- Photo Modal -->
+    <div id="photoModal" class="photo-modal">
+        <div class="photo-modal-content">
+            <div class="photo-modal-body">
+                <div class="photo-display">
+                    <img id="modalPhoto" src="" alt="Photo">
+                </div>
+                <div class="photo-details">
+                    <div class="photo-actions">
+                        <!-- Future actions like share, download -->
+                    </div>
+                    <h3 id="modalTitle"></h3>
+                    <div class="photo-date" id="modalDate"></div>
+                    <div class="photo-caption" id="modalCaption"></div>
+                    <button id="modalClose" class="modal-close-btn">×</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+<script src="js/gallery-fixed.js"></script>
+
+</body>
+</html>

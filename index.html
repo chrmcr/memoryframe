@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoryFrame - Unlock Your Memories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="bg-decoration">
+        <div class="floating-element heart">❤</div>
+        <div class="floating-element star">★</div>
+        <div class="floating-element heart">💖</div>
+        <div class="floating-element star">✨</div>
+        <div class="floating-element heart">💕</div>
+        <div class="floating-element pixel-roblox">■</div>
+        <div class="floating-element star">⭐</div>
+        <div class="floating-element heart">💗</div>
+        <div class="floating-element pixel-roblox">◆</div>
+        <div class="floating-element star">💫</div>
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+    </div>
+
+    <!-- Password Gate Container (original + Firebase fallback) -->
+    <div class="password-gate">
+        <div class="gate-card">
+            <!-- Decorative corners -->
+            <div class="corner-decor top-left">✿</div>
+            <div class="corner-decor top-right">✿</div>
+            <div class="corner-decor bottom-left">✿</div>
+            <div class="corner-decor bottom-right">✿</div>
+            
+            <!-- Main Content -->
+            <div class="gate-content">
+                <div class="logo-section">
+                    <div class="logo-icon">📸</div>
+                    <h1 class="title">MemoryFrame</h1>
+                    <p class="subtitle">Before entering, answer this question...</p>
+                </div>
+
+                <div class="question-box">
+                    <span class="question-label">Question:</span>
+                    <div class="question-text">"P"</div>
+                </div>
+
+                <div class="input-section">
+                    <input 
+                        type="password" 
+                        id="passwordInput" 
+                        class="password-input" 
+                        placeholder="Your answer..."
+                        autocomplete="off"
+                    >
+                    <button id="unlockBtn" class="unlock-btn">
+                        <span class="btn-icon">🔓</span>
+                        <span class="btn-text">Unlock Memory</span>
+                    </button>
+                </div>
+
+                <div id="errorMessage" class="error-message">
+                    <span class="error-icon">🤔</span>
+                    <span class="error-text">Humm... nope!</span>
+                </div>
+
+                <div id="successMessage" class="success-message">
+                    <span class="success-icon">🎉</span>
+                    <span class="success-text">Welcome to my memories!</span>
+                </div>
+            </div>
+
+            <!-- Decorative bottom -->
+            <div class="gate-footer">
+                <p class="footer-text">✨ A place for our Roblox adventures ✨</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/password.js"></script>
+</body>
+</html>
+

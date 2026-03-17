@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoryFrame - Your Roblox Memories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/gallery-full.css">
+    <!-- Audio Elements -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="audio/smalljoys.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="clickSound" preload="auto">
+        <!-- Simple click sound via data URI or Web Audio -->
+    </audio>
+    <audio id="successSound" preload="auto">
+        <!-- Success chime -->
+    </audio>
+</head>
+<body>
+
+    <!-- Bloom Loader -->
+    <div id="bloom-loader">
+        <div class="flower">
+            <div class="petal-wrap p1"><div class="petal"></div></div>
+            <div class="petal-wrap p2"><div class="petal"></div></div>
+            <div class="petal-wrap p3"><div class="petal"></div></div>
+            <div class="petal-wrap p4"><div class="petal"></div></div>
+            <div class="petal-wrap p5"><div class="petal"></div></div>
+            <div class="petal-wrap p6"><div class="petal"></div></div>
+            <div class="center"></div>
+            <div class="stem"></div>
+        </div>
+        <div class="bloom-text">
+            <h1>Memory Frame</h1>
+            <p>A frame full of stories</p>
+        </div>
+    </div>
+
+    <!-- Floating Background Elements -->
+    <div class="bg-decoration">
+        <div class="floating-element heart" style="left: 5%; animation-delay: 0s;">❤</div>
+        <div class="floating-element star" style="left: 15%; animation-delay: 1s;">★</div>
+        <div class="floating-element heart" style="left: 25%; animation-delay: 2s;">💖</div>
+        <div class="floating-element star" style="left: 35%; animation-delay: 0.5s;">✨</div>
+        <div class="floating-element heart" style="left: 45%; animation-delay: 1.5s;">💕</div>
+        <div class="floating-element pixel-roblox" style="left: 55%; animation-delay: 0.8s;">■</div>
+        <div class="floating-element star" style="left: 65%; animation-delay: 2s;">⭐</div>
+        <div class="floating-element heart" style="left: 75%; animation-delay: 1.2s;">💗</div>
+        <div class="floating-element pixel-roblox" style="left: 85%; animation-delay: 0.3s;">◆</div>
+        <div class="floating-element star" style="left: 95%; animation-delay: 1.8s;">💫</div>
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+        <div class="sparkle sparkle-6"></div>
+        <div class="sparkle sparkle-7"></div>
+        <div class="sparkle sparkle-8"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">📸</span>
+                <h1 class="logo-text">MemoryFrame</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="#gallery" class="nav-link nav-btn">Home</a>
+                <a href="#videos" class="nav-link">Videos</a>
+                <a href="#timeline" class="nav-link">Timeline</a>
+                <a href="#polaroid" class="nav-link">Polaroid</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+<span id="roleBadge" class="role-badge" style="display:none;"></span>
+<button id="logoutBtn" class="nav-link" style="background:none;border:none;cursor:pointer;">🚪 Logout</button>
+                <button id="soundToggle" class="nav-link" title="Toggle Sound">🔊</button>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to My Memory Lane 🚀</h1>
+            <p class="hero-subtitle">Every screenshot tells a story, every video holds a moment</p>
+            <div class="hero-decoration">
+                <span class="hero-emoji">🎮</span>
+                <span class="hero-emoji">❤️</span>
+                <span class="hero-emoji">⭐</span>
+                <span class="hero-emoji">✨</span>
+                <span class="hero-emoji">🎮</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery - Full Width -->
+    <section id="gallery" class="section gallery-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Photo Memories</h2>
+                <p class="section-subtitle">---</p>
+            </div>
+            <div class="gallery-grid-full">
+                <div class="gallery-item-full fade-in">
+                    <img src="images/sunset.png?v=1" alt="Sunset">
+                </div>
+                <div class="gallery-item-full fade-in">
+                    <img src="images/mtimut.png?v=1" alt="MTI Mut">
+                </div>
+                <div class="gallery-item-full fade-in">
+                    <img src="images/aurora.png?v=1" alt="Aurora">
+                </div>
+                <div class="gallery-item-full fade-in">
+                    <img src="images/frogs.png?v=1" alt="Frogs">
+                </div>
+                <div class="gallery-item-full fade-in">
+                    <img src="images/mtsumbing.jpeg?v=1" alt="Mt Sumbing">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Memories Section -->
+    <section id="videos" class="section videos-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">🎬 Video Memories</h2>
+                <p class="section-subtitle">Watch our moments come alive</p>
+            </div>
+            <div class="videos-grid">
+                <div class="video-card fade-in">
+                <div class="video-placeholder">
+                    <video controls width="100%">
+                        <source src="videos/pinguin.mp4" type="video/mp4">
+                    </video>
+                </div>
+                    <div class="video-info">
+                        <h3 class="video-title"></h3>
+                        <p class="video-date"></p>
+                    </div>
+                </div>
+                <div class="video-card fade-in">
+                <div class="video-placeholder">
+                    <video controls width="100%">
+                        <source src="videos/naikmobil.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title"></h3>
+                    <p class="video-date"></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="timeline" class="section timeline-section">
+<div class="section-container">
+<div class="section-header">
+<h2 class="section-title">Timeline</h2>
+<p class="section-subtitle">Our journey through time</p>
+</div>
+<div class="timeline">
+
+
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">Agustus 2025</div>
+            <h3 class="timeline-title">First Meeting</h3>
+            <p class="timeline-desc">The beginning of everything. This was the first time I met and started talking.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">September 2025</div>
+            <h3 class="timeline-title">Mountain Hike</h3>
+            <p class="timeline-desc"> A moment full of new memories.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">Oktober 2025</div>
+            <h3 class="timeline-title">Another Mountain Journey</h3>
+            <p class="timeline-desc">We went hiking again and shared another adventure together.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">November 2025</div>
+            <h3 class="timeline-title">Fish It Era Begins</h3>
+            <p class="timeline-desc">We started playing Fish It and spent many fun moments in the game.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">Desember 2025</div>
+            <h3 class="timeline-title">Time is Secret</h3>
+            <p class="timeline-desc">Days of fishing.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">Januari 2026</div>
+            <h3 class="timeline-title">The First Month of the Year</h3>
+            <p class="timeline-desc">We continued sharing moments together, keeping our little story.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">Februari 2026</div>
+            <h3 class="timeline-title">Heartopia Days</h3>
+            <p class="timeline-desc">We started exploring Heartopia.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">Maret 2026</div>
+            <h3 class="timeline-title">Still Writing The Story</h3>
+        <p class="timeline-desc">The journey continues. More memories, more laughter, and more moments together.</p>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Polaroid Album Section -->
+    <section id="polaroid" class="section polaroid-section">
+
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">🖼️ Polaroid Album</h2>
+                <p class="section-subtitle">Click to see the full memory</p>
+            </div>
+            <div class="polaroid-grid" id="polaroidGrid">
+                <div class="polaroid-card fade-in" data-id="1">
+                    <div class="polaroid-photo">
+<img src="images/me.png" alt="" loading="lazy">
+                    </div>
+                    <div class="polaroid-caption">
+                        <p></p>
+                        <span class="polaroid-date">-</span>
+                    </div>
+                </div>
+                <div class="polaroid-card fade-in" data-id="2">
+                    <div class="polaroid-photo">
+<img src="images/me2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="polaroid-caption">
+                        <p></p>
+                        <span class="polaroid-date">-</span>
+                    </div>
+                </div>
+                <div class="polaroid-card fade-in" data-id="3">
+                    <div class="polaroid-photo">
+<img src="images/mtharaya.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="polaroid-caption">
+                        <p></p>
+                        <span class="polaroid-date">-</span>
+                    </div>
+                </div>
+                <div class="polaroid-card fade-in" data-id="4">
+                    <div class="polaroid-photo">
+<img src="images/me3.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="polaroid-caption">
+                        <p></p>
+                        <span class="polaroid-date">-</span>
+                    </div>
+                </div>
+                <div class="polaroid-card fade-in" data-id="5">
+                    <div class="polaroid-photo">
+<img src="images/flowers.JPG?v=1" alt="" loading="lazy">
+                    </div>
+                    <div class="polaroid-caption">
+                        <p></p>
+                        <span class="polaroid-date">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="footer-text">Made with 💕 for our Roblox adventures</p>
+            <div class="footer-decoration">
+                <span>✨</span>
+                <span>⭐</span>
+                <span>💖</span>
+                <span>✨</span>
+            </div>
+            <p class="footer-copyright">© 2024 MemoryFrame - All memories reserved</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Polaroid Detail -->
+    <div id="polaroidModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Memory Detail">
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDate"></p>
+                    <p id="modalCaption"></p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase for auth -->
+    <script type="module">
+      import { initAuth } from './js/auth.js';
+      initAuth((state) => {
+        if (!state.user) {
+          window.location.href = 'index.html';
+        }
+      });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
