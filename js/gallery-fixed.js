@@ -51,6 +51,7 @@ function loadLocalPhotos() {
         { file: 'mtsumbing.jpeg', title: 'Pendakian Mount Sumbing', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mttaby.png', title: 'Pendakian Mount Taby', tags: ['roblox', 'mount'], caption: '', date: '16 Oktober 2025' },
         { file: 'triokwekkwek4.png', title: 'Pendakian Mount', tags: ['roblox', 'mount'], caption: '', date: '2025' },
+        { file: 'mtbersabar.JPG', title: 'Pendakian Mount Bersabar', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'mtantartika.png', title: 'Pendakian Mount Antartika', tags: ['mount', 'roblox', 'friends'], caption: '', date: '19 Agustus 2025' },
         { file: 'mtclingy.png', title: 'Pendakian Mount Clingy', tags: ['mount', 'roblox'], caption: 'Jadi anomali terus ahahaha.', date: '16 Maret 2026' },
         { file: 'nexarionobstacle.png', title: 'Nexarion Obstacle', tags: ['roblox'], caption: '', date: '12 Maret 2026' },
