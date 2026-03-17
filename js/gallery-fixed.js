@@ -67,7 +67,7 @@ function loadLocalPhotos() {
         { file: 'mtimut2.png', title: 'Pendakian Mount Imut', tags: ['mount', 'cute', 'roblox'], caption: '', date: '21 Oktober 2025' },
         { file: 'mtacumalaka.png', title: 'Pendakian Mount Acumalaka', tags: ['mount', 'roblox'], caption: '', date: '22 Agustus 2025' },
         { file: 'mttakesi.JPG', title: 'Pendakian Mount Takesi', tags: ['mount', 'roblox'], caption: '', date: '2025' },
-        { file: 'mtjeku.jpg', title: 'Aurora', tags: ['mount', 'roblox'], caption: '', date: '2025' },
+        { file: 'mtjeku.jpg', title: 'Mount Jeku', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'htbajubasket.jpg', title: 'Heartopia', tags: ['heartopia'], caption: '', date: '16 Februari 2026' },
         { file: 'htpic.jpg', title: 'Aurora', tags: ['heartopia'], caption: '', date: '10 Februari 2026' },
         { file: 'mtfantasia.jpg', title: 'Pendakian Mount Fantasia', tags: ['mount', 'roblox'], caption: '', date: '2025' },
