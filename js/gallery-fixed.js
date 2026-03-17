@@ -130,7 +130,7 @@ function loadLocalPhotos() {
         { file: 'mtseminung.jpg', title: 'Pendakian Mount Seminung', tags: ['roblox', 'mount'], caption: '', date: '19 Agustus 2025' },
         { file: 'mtsukma.jpg', title: 'Pendakian Mount Sukma', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtpinatubo.jpg', title: 'Pendakian Mount Pinatubo', tags: ['roblox', 'mount'], caption: '', date: '2025' },
-        { file: 'triokekkek3.JPG', title: 'Pendakian Mount', tags: ['roblox', 'mount'], caption: '', date: '2025' },
+        { file: 'triokwekkwek3.JPG', title: 'Pendakian Mount', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'mtbasahan.png', title: 'Pendakian Mount Basahan', tags: ['roblox', 'mount'], caption: 'Ya ampunn jadi pocong', date: '15 Oktober 2025' },
         { file: 'mtgemi.png', title: 'Pendakian Mount Gemi', tags: ['roblox', 'mount'], caption: 'Anak kembar', date: '14 Januari 2026' }
     ];
