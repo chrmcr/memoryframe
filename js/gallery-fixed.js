@@ -28,7 +28,7 @@ function loadLocalPhotos() {
         { file: 'me2.png', title: 'Captured Moments', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'triokwekkwek.png', title: 'Zombie Emote', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'mtunyu.png', title: 'Pendakian Mount Unyu', tags: ['cute', 'mount', 'roblox'], caption: '', date: '26 Januari 2026' },
-         { file: 'nakniknukexp.png', title: 'Ekspedisi Nakniknuk', tags: ['mount', 'roblox'], caption: '', date: '17 Oktober 2025' },
+        { file: 'nakniknukexp.png', title: 'Ekspedisi Nakniknuk', tags: ['mount', 'roblox'], caption: '', date: '17 Oktober 2025' },
         { file: 'mttogether.png', title: 'Pendakian Mount Together', tags: ['mount', 'roblox'], caption: '', date: '17 Desember 2025' },
         { file: 'mtwayang.png', title: 'Pendakian Mount Wayang', tags: ['indo', 'mount', 'roblox'], caption: '', date: '8 November 2025' },
         { file: 'raamy.JPG', title: 'Pendakian dengan Emy dan Raa', tags: ['friends', 'mount', 'roblox'], caption: '', date: '2025' },
@@ -134,6 +134,7 @@ function loadLocalPhotos() {
         { file: 'mtpinatubo.jpg', title: 'Pendakian Mount Pinatubo', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'triokwekkwek3.JPG', title: 'Pendakian Mount', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'mtbasahan.png', title: 'Pendakian Mount Basahan', tags: ['roblox', 'mount'], caption: 'Ya ampunn jadi pocong', date: '15 Oktober 2025' },
+        { file: 'mtparalel.png', title: 'Pendakian Mount Paralel', tags: ['mount', 'roblox'], caption: '', date: '19 Oktober 2025' },
         { file: 'mtgemi.png', title: 'Pendakian Mount Gemi', tags: ['roblox', 'mount'], caption: 'Anak kembar', date: '14 Januari 2026' }
     ];
 
