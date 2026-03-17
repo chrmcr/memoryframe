@@ -17,7 +17,7 @@ function loadLocalPhotos() {
         { file: 'mtakhirat.JPG', title: 'Pendakian Mount Akhirat', tags: ['mount', 'roblox', 'friends'], caption: '', date: '2025' },
         { file: 'mtghaib.JPG', title: 'Pendakian Mount Ghaib', tags: ['mount', 'roblox', 'horror', 'friends'], caption: '', date: '2025' },
         { file: 'mtimut.png', title: 'Pendakian Mount Imut', tags: ['mount', 'cute', 'roblox'], caption: '', date: '2025' },
-        { file: 'obby.png', title: 'Obby', tags: ['mount', 'cute', 'roblox'], caption: '', date: '2025' },
+        { file: 'obby.jpg', title: 'Obby', tags: ['mount', 'cute', 'roblox'], caption: '', date: '2025' },
         { file: 'luciddreamexp.png', title: 'Lucid Dream Expedition', tags: ['expedition', 'roblox'], caption: '', date: '18 Oktober 2025' },
         { file: 'htanta2.jpg', title: 'Heartopia', tags: ['heartopia'], caption: '', date: '10 Maret 2026' },
         { file: 'mtbatu.png', title: 'Pendakian Mount Batu', tags: ['mount', 'roblox', 'friends'], caption: '', date: '1 September 2025' },
