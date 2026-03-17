@@ -96,6 +96,7 @@ function loadLocalPhotos() {
         { file: 'cedih.png', title: 'Pada galau', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtanu.png', title: 'Pendakian Mount Anu', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'mtdewa.png', title: 'Pendakian Mount Dewa', tags: ['roblox', 'mount'], caption: '', date: '2025' },
+        { file: 'mtnight.png', title: 'Pendakian Mount Night', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtatin.jpg', title: 'Pendakian Mount Atin', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'sunset.png', title: 'Sunset', tags: ['nature', 'roblox'], caption: 'Wii sunsetnya bagus', date: '5 Maret 2026' },
         { file: 'htrainbow2.jpg', title: 'Rainbow Heartopia', tags: ['heartopia'], caption: '', date: '4 Maret 2026' },
