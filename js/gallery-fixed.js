@@ -144,6 +144,7 @@ function loadLocalPhotos() {
         { file: 'mtparalel.png', title: 'Pendakian Mount Paralel', tags: ['mount', 'roblox'], caption: '', date: '19 Oktober 2025' },
         { file: 'mthappy.png', title: 'Pendakian Mount Happy', tags: ['mount', 'roblox'], caption: '', date: '17 Oktober 2025' },
         { file: 'bukitfauna.png', title: 'Pendakian Bukit Fauna', tags: ['roblox'], caption: '', date: '12 Desember 2025' },
+        { file: 'mtbegatal.png', title: 'Pendakian Mount Begatal', tags: ['roblox', 'mount'], caption: '', date: '13 Desember 2025' },
         { file: 'mtgemi.png', title: 'Pendakian Mount Gemi', tags: ['roblox', 'mount'], caption: 'Anak kembar', date: '14 Januari 2026' }
     ];
 
