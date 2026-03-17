@@ -105,6 +105,7 @@ function loadLocalPhotos() {
         { file: 'htayunan.jpg', title: 'Naik Ayunan', tags: ['heartopia'], caption: '', date: '4 Maret 2026' },
         { file: 'mtendless.jpg', title: 'Pendakian Mount Endless', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtmasurai.png', title: 'Pendakian Mount Masurai', tags: ['mount', 'roblox'], caption: '', date: '2025' },
+        { file: 'mtelora.png', title: 'Pendakian Mount Elora', tags: ['mount', 'roblox'], caption: '', date: '9 November 2025' },
         { file: 'htmeteor.jpg', title: 'Meteor Heartopia', tags: ['heartopia'], caption: '', date: '14 Februari 2026' },
         { file: 'mtyahayuk.png', title: 'Pendakian Mount Yahayuk', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'htaction.jpg', title: 'Winter Heartopia', tags: ['heartopia'], caption: '', date: '12 Februari 2026' },
