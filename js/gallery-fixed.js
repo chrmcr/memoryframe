@@ -129,6 +129,7 @@ function loadLocalPhotos() {
         { file: 'triokwekkwek2.jpg', title: 'Pendakian Mount', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtbiantara.JPG', title: 'Pendakian Mount Biantara', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtgampil.jpg', title: 'Pendakian Mount Gampil', tags: ['roblox', 'mount'], caption: '', date: '2025' },
+        { file: 'mtsimartau.png', title: 'Pendakian Mount Simartau', tags: ['roblox', 'mount'], caption: '', date: '2025' },
         { file: 'mtseminung.jpg', title: 'Pendakian Mount Seminung', tags: ['roblox', 'mount'], caption: '', date: '19 Agustus 2025' },
         { file: 'mtsukma.jpg', title: 'Pendakian Mount Sukma', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mtpinatubo.jpg', title: 'Pendakian Mount Pinatubo', tags: ['roblox', 'mount'], caption: '', date: '2025' },
