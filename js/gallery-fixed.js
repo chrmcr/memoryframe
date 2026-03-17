@@ -115,6 +115,7 @@ function loadLocalPhotos() {
         { file: 'naiksepeda.png', title: 'Naik Sepeda', tags: ['roblox'], caption: '', date: '12 November 2025' },
         { file: 'htchoco.jpg', title: 'Heartopia', tags: ['heartopia'], caption: '', date: '1 Maret 2026' },
         { file: 'malaikat.JPG', title: 'Pendakian Mount', tags: ['mount', 'roblox'], caption: '', date: '2025' },
+        { file: 'mtfeeling.png', title: 'Pendakian Mount Feeling', tags: ['mount', 'roblox'], caption: '', date: '12 Desember 2025' },
         { file: 'kapalauraboy.jpg', title: 'Kapal Aura Kid', tags: ['fishit', 'roblox'], caption: '', date: '2025' },
         { file: 'mttired.jpg', title: 'Pendakian Mount Tired', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mttelomoyo2.png', title: 'Pendakian Mount Telomoyo', tags: ['mount', 'roblox'], caption: '', date: '2025' },
