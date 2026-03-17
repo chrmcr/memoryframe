@@ -47,6 +47,7 @@ function loadLocalPhotos() {
         { file: 'htbajupinguin.jpg', title: 'Heartopia', tags: ['heartopia'], caption: '', date: '9 Maret 2026' },
         { file: 'mtlotis.png', title: 'Pendakian Mount Lotis', tags: ['mount', 'roblox'], caption: '', date: '12 Februari 2026' },
         { file: 'mtpilar.png', title: 'Pendakian Mount Pilar', tags: ['mount', 'roblox'], caption: '', date: '2025' },
+        { file: 'mtbayi.jpg', title: 'Pendakian Mount Bayi', tags: ['mount', 'cute', 'roblox'], caption: '', date: '2025' },
         { file: 'mtsumbing.jpeg', title: 'Pendakian Mount Sumbing', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'mttaby.png', title: 'Pendakian Mount Taby', tags: ['roblox', 'mount'], caption: '', date: '16 Oktober 2025' },
         { file: 'triokwekkwek4.png', title: 'Pendakian Mount', tags: ['roblox', 'mount'], caption: '', date: '2025' },
