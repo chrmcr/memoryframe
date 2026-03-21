@@ -149,6 +149,12 @@ function loadLocalPhotos() {
         { file: 'mthappy.png', title: 'Pendakian Mount Happy', tags: ['mount', 'roblox'], caption: '', date: '17 Oktober 2025' },
         { file: 'bukitfauna.png', title: 'Pendakian Bukit Fauna', tags: ['roblox'], caption: '', date: '12 Desember 2025' },
         { file: 'mtbegatal.png', title: 'Pendakian Mount Begatal', tags: ['roblox', 'mount'], caption: '', date: '13 Desember 2025' },
+        { file: 'mtkumaha.png', title: 'Pendakian Mount Kumaha', tags: ['roblox', 'mount'], caption: '', date: '19 Maret 2026' },
+        { file: 'mthiyaa.png', title: 'Pendakian Mount Hiyaa', tags: ['roblox', 'mount'], caption: '', date: '18 Maret 2026' },
+        { file: 'mtsuzume.png', title: 'Pendakian Mount Suzume', tags: ['roblox', 'mount'], caption: '', date: '17 Maret 2026' },
+        { file: 'mtkumaha2.png', title: 'Pendakian Mount Kumaha', tags: ['roblox', 'mount'], caption: '', date: '19 Maret 2026' },
+        { file: 'mtmiumiu.png', title: 'Pendakian Mount Miumiu', tags: ['roblox', 'mount'], caption: '', date: '21 Maret 2026' },
+        { file: 'mtpusing.png', title: 'Pendakian Mount Pusing', tags: ['roblox', 'mount'], caption: '', date: '21 Maret 2026' },
         { file: 'mtgemi.png', title: 'Pendakian Mount Gemi', tags: ['roblox', 'mount'], caption: 'Anak kembar', date: '14 Januari 2026' }
     ];
 
