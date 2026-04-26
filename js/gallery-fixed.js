@@ -64,6 +64,7 @@ function loadLocalPhotos() {
         { file: 'mtrakyat.png', title: 'Pendakian Mount Rakyat', tags: ['roblox', 'mount'], caption: '', date: '19 Februari 2026' },
         { file: 'mtawan.png', title: 'Pendakian Mount Awan', tags: ['roblox', 'mount', 'friends'], caption: '', date: '2025' },
         { file: 'mtpening.png', title: 'Pendakian Mount Pening', tags: ['roblox', 'mount'], caption: '', date: '16 Februari 2026' },
+        { file: 'mtthough.png', title: 'Pendakian Mount Though', tags: ['mount', 'roblox'], caption: '', date: '2025' },
         { file: 'konon.png', title: 'Konon', tags: ['horror', 'mount'], caption: 'Horror Game', date: '19 Oktober 2025' },
         { file: 'mttea.png', title: 'Pendakian Mount Tea', tags: ['mount', 'roblox'], caption: '', date: '12 November 2025' },
         { file: 'mtgoyaa.png', title: 'Pendakian Mount Goyaa', tags: ['roblox', 'mount'], caption: '', date: '13 Februari 2026' },
